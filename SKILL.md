@@ -46,7 +46,7 @@ Treat `G_Q` as a tiny emoticon-like face gently rubbing sleepy eyes: the rounded
 - Keep `G_Q` immediately readable; preserve the underscore.
 - Use dark charcoal for the main mark.
 - Allow only a subtle sleepy-eye association—do not add literal hands, eyelashes or a cartoon face.
-- Warm yellow `#F2C94C` remains the recurring color motif and may appear as a chapter marker, status point, cursor, process node, pendant, or small accent.
+- Warm yellow `#F2C94C` remains the recurring color motif and may appear as a chapter marker, status point, cursor, process node or small accent.
 - Do not place the logo in every image. Use it when the asset is explicitly branded, used as an intro/outro, watermark, title card, profile asset, or reusable identity component.
 - Derived states such as `G_?`, `G_!` and `G_O` may express status, but never replace the formal identity.
 - Do not invent extra slogans or brand text.
@@ -63,7 +63,6 @@ Fixed traits:
 - sleepy dot or short-line eyes and restrained mouth
 - very short line body, arms and legs; total height around 2.5–3 head diameters
 - small dark torso shape suggesting a black T-shirt
-- one tiny warm-yellow pendant dot
 - rounded, slightly imperfect graphite doodle lines
 
 Use Wenhao when a scene benefits from a human decision, test, presentation, camera action, reading, making or device interaction. Never stretch the figure into a tall or anatomically realistic stick figure. Avoid detailed faces, fingers, clothing folds, shoes, anime rendering and painted chibi styling.
@@ -245,7 +244,7 @@ blocks, arrows, states, and spatial relationships rather than futuristic HUD
 decoration. Use the G_QMark palette: charcoal and off-white base, identity yellow
 for tiny focus points, plus at most two soft semantic colors such as sky blue,
 sage green, soft orange, or soft purple. If Wenhao appears, keep a round head, tiny glasses, sparse black hair, very short
-line limbs, dark torso and tiny yellow pendant. If Golden Pup appears, keep a
+line limbs and dark torso. If Golden Pup appears, keep a
 round golden-retriever puppy body, short legs, floppy ears, cream muzzle and
 warm golden-ochre flat coat. No cyberpunk, no neon glow, no glassmorphism,
 no glossy gradients, no photorealism, no complex 3D, no chibi, no corporate
@@ -329,7 +328,7 @@ python3 scripts/cutout.py source.png transparent.png \
 ### 5. Validate the transparent result
 
 - Confirm RGBA output and transparent corners.
-- Confirm glasses, hair, pendant, Golden Pup floppy ears, muzzle and tail, and small yellow details remain complete.
+- Confirm glasses, hair, Golden Pup floppy ears, muzzle and tail, and small yellow details remain complete.
 - Check for key-color fringe at 100% zoom.
 - Confirm internal light areas were not erased.
 - Regenerate the source instead of forcing background removal when the source background is uneven.
