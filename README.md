@@ -6,7 +6,7 @@
 
 ## 视觉方向
 
-整体风格：**明亮、平稳、圆润、克制地可爱、带一点技术内容。**
+整体风格：**明亮、安静、略困、圆润、克制地可爱、带一点技术内容。**
 
 - 使用暖米白背景和大面积留白，不依赖深色科技背景。
 - 以深灰线稿和柔和扁平色块构成画面，避免强渐变、霓虹和复杂 3D。
@@ -16,9 +16,15 @@
 
 ## 固定身份资产
 
-### `G?`
+### `G_QMark` / `G_Q` / `G?`
 
-`G?` 是主标识。问号的圆点使用固定黄色，并作为整套视觉系统的重复记号，可用于章节编号、流程节点、光标、状态提示和小型强调元素。
+- `G_QMark` 是正式项目与视觉系统名称。
+- `G_Q` 是核心人格化短标：它像一个正在轻轻揉惺忪睡眼的极简表情，安静、有点困，但已经开始工作。
+- `G?` 是 favicon、微型图标和衍生动效可用的次级抽象符号，不是唯一主标识。
+
+The core short mark is `G_Q`, treated as a sleepy, calm emoticon-like identity rather than a purely abstract logo.
+
+固定黄色仍是整套视觉系统的重复记号，可用于章节编号、流程节点、光标、状态提示和小型强调元素。
 
 ### Wenhao
 
@@ -91,7 +97,7 @@ The cat is resting on a progress bar while an Agent is working.
 
 ```text
 assets/
-  identity/            G? 标识和品牌小元素
+  identity/            G_Q 核心短标、G_QMark 正式字标与次级 G? 符号
   characters/wenhao/  Wenhao 人物资产
   mascot/q-cat/        Q Cat 资产
   icons/               设备、Agent、模型和工作流图标
