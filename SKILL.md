@@ -75,17 +75,17 @@ Golden Pup is a small golden retriever puppy companion representing companionshi
 Fixed traits:
 
 - unmistakably a young golden retriever puppy
-- compact round body, slightly oversized head and short legs
-- floppy rounded ears
-- broad cream muzzle and chest
-- warm golden-ochre flat coat
-- small sleepy-friendly eyes and tiny dark nose
-- simplified softly curved tail
-- the same rounded graphite doodle line language as Wenhao
+- one low bean-shaped head-and-body silhouette with almost no neck
+- wide soft semicircle ears hanging at both sides
+- very short rounded limbs and a tiny curled tail
+- dot eyes, tiny oval nose and relaxed small mouth
+- subtle pale-cream muzzle patch
+- warm golden-yellow / ochre flat body
+- the same thick rounded graphite doodle line language as Wenhao
 
 Golden Pup may sit beside a laptop, NAS, camera, model block or progress bar; lie with its chin on its paws; carry a soft ball; peek from a folder; or accompany Wenhao. Keep it secondary to the information.
 
-Do not turn it into a cat, border collie, adult tall dog, robot, armored animal or realistically rendered pet. Avoid pointy ears, detailed fur, anime eyes and complex clothing.
+Do not give it separate realistic head-and-torso anatomy or turn it into a cat, border collie, adult tall dog, robot, armored animal or realistically rendered pet. Avoid pointy ears, detailed fur, anime eyes and complex clothing.
 
 ## Shared visual language
 
