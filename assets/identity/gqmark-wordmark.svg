@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 112" role="img" aria-labelledby="title desc">
+  <title id="title">G_QMark wordmark</title>
+  <desc id="desc">The compact G_Q mark paired with the formal G_QMark name.</desc>
+  <g fill="none" stroke="#30343B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M86 34C78 27 68 24 55 24C33 24 18 38 18 57C18 77 34 90 55 90C70 90 80 85 86 78V59H61"/>
+    <path d="M106 88H151"/>
+    <ellipse cx="205" cy="57" rx="38" ry="32"/>
+    <path d="M228 79L248 91"/>
+  </g>
+  <text x="286" y="72" fill="#30343B" font-family="ui-rounded, 'SF Pro Rounded', 'Nunito Sans', sans-serif" font-size="48" font-weight="650" letter-spacing="-1">G_QMark</text>
+</svg>
