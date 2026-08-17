@@ -1,8 +1,8 @@
 # G_QMark Identity Master
 
-Status: geometry direction selected; canonical SVG not drawn yet.
+Status: G_Q v1 SVG master approved.
 
-This file defines the non-image rules for the G_QMark identity mark. A generated or manually drawn logo does not become canonical until it is explicitly approved and placed in this directory as a master asset.
+This file defines the canonical rules for the G_QMark identity. The approved v1 assets live beside this file.
 
 ## 1. Identity structure
 
@@ -44,7 +44,7 @@ The selected direction is the lower-left concept from the first four-way explora
 - The sleepy-eye feeling must come from weight, proportion and spacing; do not add literal eyelids, hands or motion marks to the static master.
 - Keep the mark legible at 24–32 px.
 
-This selected geometry replaces further open-ended logo exploration. The next step is deterministic vector redrawing and optical adjustment, not generating unrelated alternatives.
+This geometry is implemented in `gqmark-primary.svg`; do not reopen unrelated logo exploration without revising this master.
 
 ### Secondary G?
 
@@ -78,7 +78,7 @@ Dark-background use is secondary. If required, use warm off-white for the main s
 
 ## 5. Clear space and minimum size
 
-Until a vector master is approved, use these working rules:
+Use these rules:
 
 - clear space around the mark: at least the stroke width of the G
 - minimum compact digital size: 24 px high
@@ -87,7 +87,7 @@ Until a vector master is approved, use these working rules:
 
 ## 6. Motion behavior
 
-The mark should support a short deterministic SVG/HTML animation.
+The approved deterministic animation is `gqmark-motion.svg`.
 
 Preferred `G_Q` reveal sequence:
 
@@ -121,14 +121,11 @@ Not allowed without revising this master:
 - adding gradients as a required identity feature
 - adding literal AI, robot, chip or electrical symbols into the core mark
 
-## 8. Approval targets
+## 8. Approved v1 assets
 
-Before this identity becomes final, approve at least:
+- `gqmark-primary.svg` — canonical graphite `G_Q`
+- `gqmark-reverse.svg` — warm off-white reverse mark
+- `gqmark-wordmark.svg` — horizontal formal-name lockup
+- `gqmark-motion.svg` — one-shot sleepy rubbing reveal with reduced-motion fallback
 
-- `gqmark-primary.svg` for `G_Q`
-- `gqmark-wordmark.svg` for `G_QMark`
-- `gqmark-compact.svg` for the optional `G?` derivative
-- `gqmark-mono.svg`
-- `gqmark-motion.svg` or equivalent motion source
-
-Test the compact mark at 24 px, 32 px, 64 px and 128 px.
+The primary mark has been visually checked at large display size and must remain legible at 24 px, 32 px, 64 px and 128 px. The wordmark's text remains font-dependent until a formal typeface is selected and outlined.
