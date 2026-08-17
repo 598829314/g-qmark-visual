@@ -13,6 +13,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+from collections import deque
 from pathlib import Path
 from statistics import median
 
@@ -22,6 +23,7 @@ from PIL import Image
 Color = tuple[int, int, int]
 ALPHA_NOISE_FLOOR = 8
 KEY_DOMINANCE_THRESHOLD = 16
+BACKGROUND_CONNECT_THRESHOLD = 96
 
 
 def _clamp(value: float) -> int:
@@ -131,6 +133,47 @@ def _sample_border_key(image: Image.Image) -> Color:
     )
 
 
+def _border_connected_key_pixels(
+    image: Image.Image,
+    key: Color,
+    max_distance: float,
+) -> set[tuple[int, int]]:
+    """Return key-colored pixels reachable from the canvas border."""
+    pixels = image.load()
+    width, height = image.size
+    queue: deque[tuple[int, int]] = deque()
+    connected: set[tuple[int, int]] = set()
+
+    def enqueue(x: int, y: int) -> None:
+        point = (x, y)
+        if point in connected:
+            return
+        if _distance(pixels[x, y][:3], key) > max_distance:
+            return
+        connected.add(point)
+        queue.append(point)
+
+    for x in range(width):
+        enqueue(x, 0)
+        enqueue(x, height - 1)
+    for y in range(height):
+        enqueue(0, y)
+        enqueue(width - 1, y)
+
+    while queue:
+        x, y = queue.popleft()
+        if x > 0:
+            enqueue(x - 1, y)
+        if x + 1 < width:
+            enqueue(x + 1, y)
+        if y > 0:
+            enqueue(x, y - 1)
+        if y + 1 < height:
+            enqueue(x, y + 1)
+
+    return connected
+
+
 def remove_background(
     input_path: Path,
     output_path: Path,
@@ -142,6 +185,11 @@ def remove_background(
     key = _sample_border_key(image)
     pixels = image.load()
     width, height = image.size
+    background = _border_connected_key_pixels(
+        image,
+        key,
+        min(opaque_threshold, BACKGROUND_CONNECT_THRESHOLD),
+    )
     transparent_count = 0
     partial_count = 0
 
@@ -149,6 +197,8 @@ def remove_background(
         for x in range(width):
             red, green, blue, source_alpha = pixels[x, y]
             color = (red, green, blue)
+            if (x, y) not in background:
+                continue
             distance = _distance(color, key)
             key_like = _looks_key_colored(color, key, distance)
             alpha = _distance_alpha(

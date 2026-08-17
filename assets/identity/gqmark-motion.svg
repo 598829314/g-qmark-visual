@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 112" role="img" aria-labelledby="title desc">
+  <title id="title">Animated G_Q mark</title>
+  <desc id="desc">The G and Q gently rub inward once, then settle beside the underscore.</desc>
+  <style>
+    .letter { fill: none; stroke: #30343B; stroke-width: 18; stroke-linecap: round; stroke-linejoin: round; transform-box: fill-box; transform-origin: center; }
+    .g { animation: rub-g 1.1s cubic-bezier(.22,.75,.25,1) both; }
+    .q { animation: rub-q 1.1s cubic-bezier(.22,.75,.25,1) both; }
+    .mouth { animation: settle .7s .25s ease-out both; }
+    @keyframes rub-g { 0% { opacity: 0; transform: translate(-7px,4px) rotate(-5deg); } 42% { opacity: 1; transform: translate(3px,1px) rotate(2deg); } 68% { transform: translate(-1px,0) rotate(-1deg); } 100% { transform: none; } }
+    @keyframes rub-q { 0% { opacity: 0; transform: translate(7px,4px) rotate(5deg); } 42% { opacity: 1; transform: translate(-3px,1px) rotate(-2deg); } 68% { transform: translate(1px,0) rotate(1deg); } 100% { transform: none; } }
+    @keyframes settle { 0% { opacity: 0; transform: translateY(5px); } 100% { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .g, .q, .mouth { animation: none; } }
+  </style>
+  <path class="letter g" d="M86 34C78 27 68 24 55 24C33 24 18 38 18 57C18 77 34 90 55 90C70 90 80 85 86 78V59H61"/>
+  <path class="letter mouth" d="M106 88H151"/>
+  <g class="letter q">
+    <ellipse cx="205" cy="57" rx="38" ry="32"/>
+    <path d="M228 79L248 91"/>
+  </g>
+</svg>
