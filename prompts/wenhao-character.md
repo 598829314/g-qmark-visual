@@ -21,9 +21,9 @@ Keep short black hair as 3–5 simple strokes, tiny dark glasses, sleepy dot or 
 Use rounded slightly imperfect graphite lines (#30343B), minimal fills and a warm off-white presentation background (#FFFDF7).
 Show the same figure in neutral, thinking, laptop, document, camera, tool, pointing, presenting, confused, realization and relaxed poses.
 Keep every pose small, compact and consistent.
-No tall stick figure, long legs, realistic anatomy, anime, painted chibi, detailed face, fingers, clothing folds, detailed shoes, gradients, 3D, cyberpunk or text.
+No necklace, pendant, gourd charm, jewelry or yellow chest dot. No tall stick figure, long legs, realistic anatomy, anime, painted chibi, detailed face, fingers, clothing folds, detailed shoes, gradients, 3D, cyberpunk or text.
 ```
 
 ## Review
 
-Reject if the figure becomes tall, detailed, realistically proportioned, anime-like, or loses its glasses, sparse hair. dark torso.
+Reject if the figure becomes tall, detailed, realistically proportioned, anime-like, gains any jewelry, or loses its glasses, sparse hair or dark torso.
