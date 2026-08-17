@@ -295,7 +295,7 @@ rounded dark-charcoal outlines, soft flat fills, restrained cute proportions,
 and no glossy or photorealistic rendering. Use the G_QMark palette with a
 charcoal/off-white base and small identity-yellow accents. If Wenhao appears,
 keep a round head, tiny glasses, sparse black hair, very short line limbs, dark
-torso and tiny yellow pendant. If Golden Pup appears, keep a compact golden
+torso with no jewelry. If Golden Pup appears, keep a compact golden
 retriever puppy body, short legs, floppy ears, cream muzzle and warm golden coat. The background must be a perfectly uniform flat <KEY_COLOR>
 rectangle with zero gradient, texture, noise, speckles, shadows, floor plane,
 or lighting variation. Do not let artwork touch the image border. Keep generous
@@ -328,7 +328,7 @@ python3 scripts/cutout.py source.png transparent.png \
 ### 5. Validate the transparent result
 
 - Confirm RGBA output and transparent corners.
-- Confirm glasses, hair, Golden Pup floppy ears, muzzle and tail, and small yellow details remain complete.
+- Confirm glasses, hair, Golden Pup floppy ears, muzzle, tail and red collar remain complete.
 - Check for key-color fringe at 100% zoom.
 - Confirm internal light areas were not erased.
 - Regenerate the source instead of forcing background removal when the source background is uneven.
