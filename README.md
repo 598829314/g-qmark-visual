@@ -1,5 +1,9 @@
 # G_QMark Visual
 
+<p align="center">
+  <img src="./assets/identity/gqmark-primary.svg" width="360" alt="G_QMark sleepy G_Q identity mark">
+</p>
+
 `g-qmark-visual` 是一套面向个人视频、技术解释和数字内容制作的视觉规范。它从 [`oil-oil/oil-visual`](https://github.com/oil-oil/oil-visual) Fork 而来，保留原项目把角色、构图、颜色和生成流程固化为 Agent Skill 的方法，并改造成属于 G_QMark 的视觉资产系统。
 
 它不是单独的一种“画风”，而是一套可以持续扩展的个人视觉语言：固定标识、人物、吉祥物、色彩、图形规则，以及适合解释图和透明视频素材的生产方式。
@@ -24,7 +28,7 @@
 
 The core short mark is `G_Q`, treated as a sleepy, calm emoticon-like identity rather than a purely abstract logo.
 
-固定黄色仍是整套视觉系统的重复记号，可用于章节编号、流程节点、光标、状态提示和小型强调元素。
+v1 已提供主标、反白、正式字标和一次性揉眼动效 SVG，见 [`assets/identity/`](./assets/identity/)。固定黄色仍是整套视觉系统的重复记号，可用于章节编号、流程节点、光标、状态提示和小型强调元素。
 
 ### Wenhao
 
@@ -107,7 +111,7 @@ prompts/               可复用生成提示词和场景模板
 scripts/               通用处理脚本
 ```
 
-当前第一版先固定规则，不生成新的角色和 Logo 图片。旧 `oil-visual` 示例素材暂时保留作为上游参考，后续再逐步替换。
+当前 v1 已完成确定性的 `G_Q` SVG 身份资产。Wenhao、Q Cat 和图标仍先以母版规则约束，待各自视觉方案确认后再加入正式图片。旧 `oil-visual` 示例素材暂时保留作为上游参考，后续再逐步替换。
 
 ## Upstream
 
