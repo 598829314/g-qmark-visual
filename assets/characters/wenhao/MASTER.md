@@ -26,7 +26,7 @@ The figure must feel small, compact and friendly. Never stretch it into a tall o
 - props simplified to the same line language
 - enough line weight to survive video scaling
 
-Avoid detailed faces, clothing folds, fingers, shoe details, anime rendering, chibi painting, glossy shading and 3D.
+Wenhao never wears a necklace, pendant, gourd charm or other jewelry. Avoid detailed faces, clothing folds, fingers, shoe details, anime rendering, chibi painting, glossy shading and 3D.
 
 ## Default actions
 
