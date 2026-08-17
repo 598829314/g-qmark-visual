@@ -10,6 +10,7 @@ Use this to refine the approved golden retriever puppy direction. Generated outp
 - wide soft semicircle ears hanging at both sides
 - subtle cream muzzle patch
 - warm golden-yellow / ochre flat body
+- one thin muted warm-red collar without a tag, bell or bow
 - dot eyes and a tiny relaxed face
 - minimal graphite editorial doodle lines
 - same visual world as the small Wenhao stick figure
@@ -18,7 +19,7 @@ Use this to refine the approved golden retriever puppy direction. Generated outp
 
 ```text
 Create a clean mascot sheet for Golden Pup, the recurring golden retriever puppy in G_QMark Visual.
-Draw a very young golden retriever as one low bean-shaped head-and-body silhouette with almost no neck, very short rounded limbs, wide soft semicircle ears hanging at both sides, dot eyes, a tiny dark oval nose, a relaxed small mouth, a subtle pale-cream muzzle patch, a tiny curled tail and a warm golden-yellow body.
+Draw a very young golden retriever as one low bean-shaped head-and-body silhouette with almost no neck, very short rounded limbs, wide soft semicircle ears hanging at both sides, dot eyes, a tiny dark oval nose, a relaxed small mouth, a subtle pale-cream muzzle patch, a tiny curled tail, a warm golden-yellow body and one thin muted warm-red collar with no ornament.
 Use minimal rounded slightly imperfect graphite outlines (#30343B), sparse flat fill and a warm off-white presentation background (#FFFDF7), matching the small Wenhao stick-figure doodle language.
 Show consistent poses: sitting, lying with chin on paws, walking, carrying a soft ball, peeking from a folder, beside a laptop, watching progress, mild confusion, pleased and sleepy.
 No separate realistic head-and-torso anatomy, no cat features, pointy ears, border-collie markings, adult tall dog, fur texture, anime eyes, clothing, robot parts, gradients, 3D, cyberpunk or text.
