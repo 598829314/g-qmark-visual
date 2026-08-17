@@ -4,9 +4,9 @@
 
 ## 当前母资产探索模板
 
-- [`identity-logo.md`](./identity-logo.md) — `G?` Logo 几何方向探索
-- [`wenhao-character.md`](./wenhao-character.md) — Wenhao 人物母版与姿态表
-- [`q-cat-character.md`](./q-cat-character.md) — Q Cat 母版与场景姿态
+- [`identity-logo.md`](./identity-logo.md) — `G_Q` 选定骨架微调
+- [`wenhao-character.md`](./wenhao-character.md) — Wenhao 小火柴人母版与姿态表
+- [`golden-pup-character.md`](./golden-pup-character.md) — 金毛幼犬母版与场景姿态
 
 这些模板都处于“探索”阶段。生成结果必须经过人工确认，才能进入 `assets/` 成为正式母资产。
 
