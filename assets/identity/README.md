@@ -1,13 +1,21 @@
 # Identity Assets
 
-用于存放正式 `G?` 标识、字标、黄色圆点和动画所需的可拆分组件。
+这里存放已经确认的 G_QMark 身份资产。
 
-计划文件：
+## 文件
 
-```text
-gqmark-logo-mark-v01.svg
-gqmark-wordmark-v01.svg
-gqmark-yellow-dot-v01.svg
-```
+- `gqmark-primary.svg` — 浅色背景上的核心 `G_Q` 标识
+- `gqmark-reverse.svg` — 深色背景反白版本
+- `gqmark-wordmark.svg` — `G_Q` 与正式名称 `G_QMark` 的横向组合
+- `gqmark-motion.svg` — 一次性“揉眼后安静下来”的 SVG 动效
 
-当前还没有正式母版。任何临时生成的 Logo 都不能自动视为最终标识；确定几何形态后再提交到这里。
+## 使用
+
+- 默认优先使用 `gqmark-primary.svg`。
+- 深色背景使用 `gqmark-reverse.svg`。
+- 标题页和正式署名使用 `gqmark-wordmark.svg`。
+- 片头或章节切换可以直接嵌入 `gqmark-motion.svg`。
+- 不要改变字母间距、线重或 Q 尾巴，也不要给静态主标增加眼睛、手或动作线。
+- 最小建议高度为 24 px；视频角标建议为 32–64 px。
+
+字标右侧文字目前使用系统圆体回退栈；正式字体选定后再转换为路径。
