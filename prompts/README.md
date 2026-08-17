@@ -2,15 +2,23 @@
 
 这里用于存放已经验证过、可重复使用的生成提示词，不把一次性对话提示词直接当作正式模板。
 
-后续建议按用途拆分：
+## 当前母资产探索模板
+
+- [`identity-logo.md`](./identity-logo.md) — `G?` Logo 几何方向探索
+- [`wenhao-character.md`](./wenhao-character.md) — Wenhao 人物母版与姿态表
+- [`q-cat-character.md`](./q-cat-character.md) — Q Cat 母版与场景姿态
+
+这些模板都处于“探索”阶段。生成结果必须经过人工确认，才能进入 `assets/` 成为正式母资产。
+
+## 后续模板
+
+后续再按用途补充：
 
 ```text
-wenhao-character.md
-qcat-character.md
 explainer-scene.md
 transparent-asset.md
 video-overlay.md
-logo-study.md
+motion-scene.md
 ```
 
-正式模板应引用 `SKILL.md` 和 `DESIGN.md` 的固定规则，只描述本次场景的变量，避免每个提示词重复维护整套视觉规范。
+正式模板应引用 `SKILL.md`、`DESIGN.md` 和对应 `assets/**/MASTER.md` 的固定规则，只描述本次场景的变量，避免每个提示词重复维护整套视觉规范。
