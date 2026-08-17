@@ -7,16 +7,16 @@ Golden Pup is the small golden retriever puppy companion in G_QMark Visual.
 ## Stable identity
 
 - unmistakably a young golden retriever puppy
-- compact round body and slightly oversized head
-- short legs and simplified paws
-- floppy rounded ears
-- broad cream muzzle and small dark nose
-- gentle, slightly sleepy eyes
-- softly curved simplified tail
-- warm golden-ochre coat with cream muzzle and chest
-- graphite rounded outline
+- one low bean-shaped head-and-body silhouette with almost no neck
+- very short rounded arms and legs suggested by simple curves
+- wide, soft semicircle ears hanging at both sides
+- tiny dot eyes, dark oval nose and relaxed small mouth
+- a subtle pale-cream muzzle patch
+- tiny curled tail
+- warm golden-yellow / ochre flat body
+- thick rounded graphite outline
 
-It must feel young, soft, clumsy, affectionate and curious—not like an adult dog or a generic cartoon animal.
+It must feel young, soft, low, clumsy, affectionate and quietly funny—not like an adult dog, a realistic puppy or a generic cartoon animal.
 
 ## Drawing language
 
@@ -24,7 +24,7 @@ Match the small Wenhao stick figure:
 
 - rounded, slightly imperfect graphite doodle lines
 - sparse warm flat fill
-- minimal fur detail
+- no fur texture beyond one or two optional outline tufts
 - simple silhouette readable at small video-overlay size
 - no realistic texture, lighting or anatomy
 
@@ -59,4 +59,4 @@ Recommended files:
 - `golden-pup-peeking-v01.png`
 - `golden-pup-complete-v01.png`
 
-Do not silently change the golden retriever breed cues, puppy proportions, floppy ears, cream muzzle, warm coat or minimal doodle style.
+Do not silently change the bean-shaped silhouette, soft hanging ears, tiny face, short limbs, warm golden body or thick minimal doodle style.
