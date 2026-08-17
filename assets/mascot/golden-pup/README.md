@@ -2,15 +2,13 @@
 
 这里存放金毛幼犬吉祥物的正式母版、动作和状态素材。
 
-优先建立：
+第一批透明 PNG：
 
 ```text
-golden-pup-neutral-v01.png
-golden-pup-resting-v01.png
-golden-pup-waiting-v01.png
-golden-pup-peeking-v01.png
-golden-pup-on-laptop-v01.png
-golden-pup-complete-v01.png
+poses/front.png
+poses/paw-up.png
+poses/resting.png
+poses/board.png
 ```
 
-正式资产使用透明背景。固定特征见 `MASTER.md` 和仓库根目录 `DESIGN.md`。
+`golden-pup-transparent-sheet.png` 是四姿势透明母表；`source/` 保留批准稿。固定特征见 `MASTER.md` 和仓库根目录 `DESIGN.md`。

@@ -4,18 +4,13 @@
 
 固定识别特征见仓库根目录 `DESIGN.md`。
 
-建议优先建立：
+第一批透明 PNG：
 
 ```text
-wenhao-stick-neutral-v01.png
-wenhao-stick-thinking-v01.png
-wenhao-stick-coding-v01.png
-wenhao-stick-reading-v01.png
-wenhao-stick-camera-v01.png
-wenhao-stick-diy-v01.png
-wenhao-stick-presenting-v01.png
-wenhao-stick-point-left-v01.png
-wenhao-stick-point-right-v01.png
+poses/neutral.png
+poses/laptop.png
+poses/camera.png
+poses/present.png
 ```
 
-正式动作资产优先保留透明背景版本。小火柴人母版尚未确定前，不把测试图作为身份标准。
+`wenhao-transparent-sheet.png` 是四姿势透明母表；`source/` 保留批准稿。人物始终不佩戴项链、吊坠或葫芦挂件。
