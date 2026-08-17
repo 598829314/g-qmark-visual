@@ -1,4 +1,4 @@
-# G? Identity Master
+# G_QMark Identity Master
 
 Status: provisional specification, no artwork approved yet.
 
@@ -8,48 +8,52 @@ This file defines the non-image rules for the G_QMark identity mark. A generated
 
 The system has three levels:
 
-1. `G?` — primary compact mark for avatar, video corner mark, motion reveal and watermark.
-2. `G_QMark` — wordmark for repository, title cards and larger identity placements.
-3. yellow dot — micro-signature that can appear independently as a recurring visual cue.
+1. `G_QMark` — formal project and visual-system name for repositories, documents, title cards and full signatures.
+2. `G_Q` — core personality-bearing short mark for avatars, video corner marks, motion reveals and watermarks.
+3. `G?` — optional secondary abstract symbol for favicons, micro-icons and derived motion shorthand.
 
-`G?` is the primary recognition unit. `G_QMark` supports it; the wordmark should not replace the compact mark everywhere.
+`G_Q` is the primary recognition unit in personal and compact contexts. `G?` remains available when a reduced graphical symbol is genuinely clearer, but it is not the only primary mark.
 
 ## 2. Visual character
 
 The mark should feel:
 
-- bright
+- sleepy
 - calm
+- quiet
+- slightly dazed
 - rounded
-- friendly
-- precise
-- lightly playful
+- restrained
+- already starting work
+
+`G_Q` should first read as a tiny emoticon-like face gently rubbing sleepy eyes: the rounded `G` and `Q` suggest two eyes or hands at the eyes, while `_` acts as a calm mouth line or resting facial centerline. It should feel cute but not childish, personal but not mascot-only, and expressive without exaggeration.
 
 It should not feel cyberpunk, gaming-oriented, aggressive, luxury-branded or corporate-heavy.
 
 ## 3. Geometry
 
-### G
+### G_Q
 
-- Use a simple geometric sans-serif construction.
-- Prefer rounded terminals over sharp cuts.
-- Keep the counter open enough to remain legible at 24–32 px.
-- Avoid decorative cuts, speed lines, circuitry or pseudo-tech details.
+- Keep the horizontal `G_Q` reading stable and immediately legible.
+- Use a simple rounded geometric sans-serif construction.
+- The circular structures of `G` and `Q` may be emphasized just enough to suggest sleepy eyes.
+- Preserve the underscore; it is part of the face-like reading.
+- Avoid exaggerated facial distortion, decorative cuts, speed lines, circuitry or pseudo-tech details.
+- Keep counters and spacing open enough to remain legible at 24–32 px.
 
-### Question mark
+### Secondary G?
 
-- The question mark should visually belong to the same stroke family as the G.
-- It may sit close to the G or partially share visual rhythm with it, but should remain readable as `?`.
-- The question mark dot is the canonical yellow dot.
+- When used, the question mark should visually belong to the same stroke family as the G.
+- The question-mark dot may use the canonical yellow dot.
 - Do not replace the dot with a star, spark, power button, AI chip or other pictogram.
+- Do not force G and the question mark into a clever monogram if that harms legibility.
 
 ### Relationship
 
-- `G` is the stable identity component.
-- `?` carries curiosity, inquiry and exploration.
-- The yellow dot is the smallest persistent signature.
-
-Do not force the G and question mark into one clever monogram if that harms legibility.
+- `G_QMark` is the formal name.
+- `G_Q` carries the sleepy, calm personality.
+- `G?` carries curiosity in highly reduced contexts.
+- The yellow dot remains the smallest persistent color signature.
 
 ## 4. Color
 
@@ -80,11 +84,11 @@ Until a vector master is approved, use these working rules:
 
 The mark should support a short deterministic SVG/HTML animation.
 
-Preferred reveal sequence:
+Preferred `G_Q` reveal sequence:
 
-1. yellow dot appears
-2. question-mark curve/stem resolves
-3. G draws or fades in
+1. the two rounded letterforms appear with a tiny sleepy rubbing motion
+2. the underscore settles into place
+3. the motion becomes still and focused
 4. optional `G_QMark` wordmark enters for title-card use
 
 Typical duration: about 0.6–1.2 seconds.
@@ -95,11 +99,15 @@ Motion should be quiet and clean. Avoid glitch, neon flicker, particle explosion
 
 Allowed:
 
-- compact `G?`
+- core short mark `G_Q`
 - horizontal `G_QMark`
+- secondary compact `G?`
+- restrained state derivatives such as `G_?`, `G_!` and `G_O` in motion or status contexts
 - monochrome one-color fallback
 - yellow-dot-only micro accent
 - outline or filled implementation if geometry remains consistent
+
+State derivatives never replace the formal identity.
 
 Not allowed without revising this master:
 
@@ -112,9 +120,9 @@ Not allowed without revising this master:
 
 Before this identity becomes final, approve at least:
 
-- `gqmark-primary.svg`
-- `gqmark-compact.svg`
-- `gqmark-wordmark.svg`
+- `gqmark-primary.svg` for `G_Q`
+- `gqmark-wordmark.svg` for `G_QMark`
+- `gqmark-compact.svg` for the optional `G?` derivative
 - `gqmark-mono.svg`
 - `gqmark-motion.svg` or equivalent motion source
 
