@@ -15,7 +15,7 @@
 - 使用暖米白背景和大面积留白，不依赖深色科技背景。
 - 以深灰线稿和柔和扁平色块构成画面，避免强渐变、霓虹和复杂 3D。
 - 信息结构保持规整，允许箭头、标签、窗口和设备带轻微手绘感。
-- 可爱来自人物比例、Q Cat 的动作和小细节，不使用夸张萌化或表情包式表演。
+- 可爱来自小火柴人的短比例、金毛幼犬的动作和少量细节，不使用夸张萌化或表情包式表演。
 - 技术感通过真实设备、Agent 节点、文件、模型、流程关系和数据表达，而不是依赖赛博朋克装饰。
 
 ## 固定身份资产
@@ -32,24 +32,21 @@ v1 已提供主标、反白、正式字标和一次性揉眼动效 SVG，见 [`a
 
 ### Wenhao
 
-简化人物角色，用于代表“我”或内容讲述者。固定识别特征：
+Wenhao 是矮小的简笔线条火柴人，用于代表“我”或内容讲述者。
 
-- 黑色短发
-- 简洁眼镜
-- 深灰或黑色上衣
-- 小型金黄色吊坠
-- 约 1:3.5–1:4 的轻度卡通比例
-- 表情克制，保持编辑插画感
+- 圆头、短身体和短四肢，总高约 2.5–3 个头
+- 几笔黑色短发、极简眼镜和微困表情
+- 小块深色上衣和一个黄色吊坠点
+- 不画成高挑火柴人，也不画成完整卡通人物
 
-### Q Cat
+### Golden Pup
 
-Q Cat 是奶灰色小猫，用于表示问题、AI、Agent、好奇心和处理状态。
+Golden Pup 是圆乎乎的金毛幼犬，用于表示陪伴、好奇、等待、观察和轻量状态反馈。
 
-- 奶灰身体、暖白肚皮
-- 极简深灰线稿
-- 尾巴自然卷成 `?`
-- 黄色小圆牌或小色块作为固定识别点
-- 可以趴在设备、窗口、进度条和文件夹上，但不抢占主体信息
+- 金黄色幼犬身体、奶油色嘴部和胸口
+- 松软垂耳、短腿、圆头和幼犬比例
+- 与小火柴人相同的极简深灰线条
+- 可以趴在设备、窗口、进度条和文件夹旁，但不抢占主体信息
 
 ## 基础配色
 
@@ -75,7 +72,7 @@ Q Cat 是奶灰色小猫，用于表示问题、AI、Agent、好奇心和处理�
 
 ### Mode B：透明视频素材
 
-用于人物、Q Cat、设备和小场景。先在纯色键控背景生成，再使用原项目保留的 `scripts/cutout.py` 输出透明 PNG，方便放进视频、网页、卡片或其他版式。
+用于小火柴人、Golden Pup、设备和小场景。先在纯色键控背景生成，再使用原项目保留的 `scripts/cutout.py` 输出透明 PNG，方便放进视频、网页、卡片或其他版式。
 
 ## 安装
 
@@ -91,8 +88,8 @@ Use short, exact Chinese labels and the bright G_QMark visual language.
 ```
 
 ```text
-Use $g-qmark-visual to create a transparent Q Cat illustration for a video overlay.
-The cat is resting on a progress bar while an Agent is working.
+Use $g-qmark-visual to create a transparent Golden Pup illustration for a video overlay.
+The golden retriever puppy is resting beside a progress bar while an Agent is working.
 ```
 
 完整生成规则、提示词结构和交付检查见 [`SKILL.md`](./SKILL.md)。
@@ -102,8 +99,8 @@ The cat is resting on a progress bar while an Agent is working.
 ```text
 assets/
   identity/            G_Q 核心短标、G_QMark 正式字标与次级 G? 符号
-  characters/wenhao/  Wenhao 人物资产
-  mascot/q-cat/        Q Cat 资产
+  characters/wenhao/  Wenhao 小火柴人资产
+  mascot/golden-pup/   金毛幼犬资产
   icons/               设备、Agent、模型和工作流图标
   readme/              README 相关素材
 examples/              示例；当前仍保留部分上游示例作为参考
@@ -111,7 +108,7 @@ prompts/               可复用生成提示词和场景模板
 scripts/               通用处理脚本
 ```
 
-当前 v1 已完成确定性的 `G_Q` SVG 身份资产。Wenhao、Q Cat 和图标仍先以母版规则约束，待各自视觉方案确认后再加入正式图片。旧 `oil-visual` 示例素材暂时保留作为上游参考，后续再逐步替换。
+当前 v1 已完成确定性的 `G_Q` SVG 身份资产。Wenhao 小火柴人、Golden Pup 和图标仍先以母版规则约束，待各自视觉方案确认后再加入正式图片。旧 `oil-visual` 示例素材暂时保留作为上游参考，后续再逐步替换。
 
 ## Upstream
 
