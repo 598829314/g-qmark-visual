@@ -81,6 +81,7 @@ Fixed traits:
 - dot eyes, tiny oval nose and relaxed small mouth
 - subtle pale-cream muzzle patch
 - warm golden-yellow / ochre flat body
+- one thin muted warm-red collar with no tag, bell or bow
 - the same thick rounded graphite doodle line language as Wenhao
 
 Golden Pup may sit beside a laptop, NAS, camera, model block or progress bar; lie with its chin on its paws; carry a soft ball; peek from a folder; or accompany Wenhao. Keep it secondary to the information.
