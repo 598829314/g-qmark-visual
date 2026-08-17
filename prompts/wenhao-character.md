@@ -1,57 +1,30 @@
-# Prompt — Wenhao Character Master Exploration
+# Prompt — Wenhao Small Stick-Figure Master
 
-Use this prompt to explore the first canonical Wenhao character sheet. Generated outputs are references until explicitly approved.
+Use this only to refine the approved small-stick-figure direction. Generated outputs remain references until a pose asset is explicitly approved.
 
-## Goal
+## Fixed rules
 
-Create a reusable editorial illustration character representing Wenhao across technical explainer videos, maker content, photography, AI workflow scenes and document visuals.
+- compact little stick figure, never tall
+- 2.5–3 head diameters total height
+- simple round head and very short limbs
+- sparse black hair strokes
+- tiny glasses and sleepy restrained face
+- small dark torso / black T-shirt cue
+- tiny warm-yellow pendant
+- graphite editorial doodle linework
 
-## Fixed identity rules
-
-- adult male
-- short black hair
-- simple dark thin-frame glasses
-- calm, friendly expression
-- dark charcoal / black crew-neck top
-- small warm-yellow / muted-gold pendant
-- slightly enlarged head, around 3.5–4 head units total body height
-- clean graphite outlines
-- flat or lightly textured fills
-- bright warm background
-
-## Character-sheet prompt
+## Master-sheet prompt
 
 ```text
-Create a clean editorial character design sheet for a recurring male character named Wenhao.
-He is an adult man with short tidy black hair, simple thin dark glasses, a calm friendly face, a dark charcoal or black crew-neck T-shirt, and a very small warm-yellow / muted-gold pendant as a recurring identifying detail.
-Use simplified proportions: slightly enlarged head, compact body, approximately 3.5 to 4 head units tall. He should be cute and approachable but not chibi, anime, childish or stick-figure-like.
-Use confident dark graphite outlines (#30343B), flat or lightly textured color fills, very restrained shadows, and a bright warm off-white presentation background (#FFFDF7).
-The drawing language should feel like a modern editorial explainer illustration: clear, rounded, stable, lightly playful and suitable for technical subjects.
-Show a consistent character across multiple views and expressions: front neutral, three-quarter neutral, side reference, thinking, focused, mild confusion, realization, explaining, and relaxed/task-complete.
-Keep hair silhouette, glasses shape, dark top and small gold/yellow pendant consistent across every panel.
-No photorealism, no detailed skin rendering, no 3D, no glossy lighting, no cyberpunk, no exaggerated anime eyes, no meme expressions, no fashion-heavy styling, no suit-and-tie corporate look, no text except minimal view labels if required.
+Create a clean character sheet for Wenhao, the recurring small stick-figure narrator in G_QMark Visual.
+Draw one slightly oversized round head, a very short line body, short line arms and legs, tiny mitten-like hands and tiny rounded feet. Total height is only 2.5 to 3 head diameters.
+Keep short black hair as 3–5 simple strokes, tiny dark glasses, sleepy dot or short-line eyes, a restrained mouth, a small dark torso shape suggesting a black T-shirt, and one tiny warm-yellow pendant dot.
+Use rounded slightly imperfect graphite lines (#30343B), minimal fills and a warm off-white presentation background (#FFFDF7).
+Show the same figure in neutral, thinking, laptop, document, camera, tool, pointing, presenting, confused, realization and relaxed poses.
+Keep every pose small, compact and consistent.
+No tall stick figure, long legs, realistic anatomy, anime, painted chibi, detailed face, fingers, clothing folds, detailed shoes, gradients, 3D, cyberpunk or text.
 ```
 
-## Pose-sheet follow-up
+## Review
 
-After a face/proportion direction is approved, use the same identity to create:
-
-```text
-Keep the approved Wenhao character identity, proportions, hair silhouette, glasses, clothing and pendant unchanged.
-Create a reusable pose sheet with: neutral standing, sitting at a computer, reviewing a document, holding a camera, holding a small electronics board/tool, pointing left, pointing right, presenting a result, mild confusion, realization, and relaxed task-complete.
-Use the exact same editorial illustration language and color system. Keep each pose isolated with generous spacing for later transparent cutout use.
-```
-
-## Review checklist
-
-Reject if:
-
-- glasses disappear or vary between poses
-- hair silhouette changes materially
-- body becomes chibi or realistic
-- pendant becomes large or ornamental
-- outfit changes without reason
-- expression becomes theatrical or meme-like
-- the character looks like a generic anime avatar rather than an editorial explainer figure
-
-Prefer the direction that remains recognizable at small video-overlay size.
+Reject if the figure becomes tall, detailed, realistically proportioned, anime-like, or loses its glasses, sparse hair, dark torso or yellow pendant.
