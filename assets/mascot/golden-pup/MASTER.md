@@ -14,6 +14,7 @@ Golden Pup is the small golden retriever puppy companion in G_QMark Visual.
 - a subtle pale-cream muzzle patch
 - tiny curled tail
 - warm golden-yellow / ochre flat body
+- one thin muted warm-red collar with no tag, bell or bow
 - thick rounded graphite outline
 
 It must feel young, soft, low, clumsy, affectionate and quietly funny—not like an adult dog, a realistic puppy or a generic cartoon animal.
@@ -59,4 +60,4 @@ Recommended files:
 - `golden-pup-peeking-v01.png`
 - `golden-pup-complete-v01.png`
 
-Do not silently change the bean-shaped silhouette, soft hanging ears, tiny face, short limbs, warm golden body or thick minimal doodle style.
+Do not silently change the bean-shaped silhouette, soft hanging ears, tiny face, short limbs, warm golden body, thin red collar or thick minimal doodle style.
