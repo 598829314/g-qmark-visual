@@ -1,6 +1,6 @@
 # G_QMark Identity Master
 
-Status: provisional specification, no artwork approved yet.
+Status: geometry direction selected; canonical SVG not drawn yet.
 
 This file defines the non-image rules for the G_QMark identity mark. A generated or manually drawn logo does not become canonical until it is explicitly approved and placed in this directory as a master asset.
 
@@ -32,14 +32,19 @@ It should not feel cyberpunk, gaming-oriented, aggressive, luxury-branded or cor
 
 ## 3. Geometry
 
-### G_Q
+### Selected G_Q direction
 
-- Keep the horizontal `G_Q` reading stable and immediately legible.
-- Use a simple rounded geometric sans-serif construction.
-- The circular structures of `G` and `Q` may be emphasized just enough to suggest sleepy eyes.
-- Preserve the underscore; it is part of the face-like reading.
-- Avoid exaggerated facial distortion, decorative cuts, speed lines, circuitry or pseudo-tech details.
-- Keep counters and spacing open enough to remain legible at 24–32 px.
+The selected direction is the lower-left concept from the first four-way exploration board.
+
+- Use a compact, heavy, rounded geometric construction.
+- Give both letters a low visual center and slightly compressed posture.
+- Keep G and Q close to the underscore so the three forms read as one sleepy emoticon.
+- Preserve a clear G opening and a short low Q tail.
+- Let the underscore sit low and nearly bridge the letters without touching them.
+- The sleepy-eye feeling must come from weight, proportion and spacing; do not add literal eyelids, hands or motion marks to the static master.
+- Keep the mark legible at 24–32 px.
+
+This selected geometry replaces further open-ended logo exploration. The next step is deterministic vector redrawing and optical adjustment, not generating unrelated alternatives.
 
 ### Secondary G?
 
@@ -66,8 +71,8 @@ Canonical palette:
 
 Default light-background logo:
 
-- G and question-mark stem: graphite
-- question-mark dot: warm yellow
+- G, underscore and Q: graphite
+- warm yellow is optional and secondary; it is not required inside the static G_Q master
 
 Dark-background use is secondary. If required, use warm off-white for the main strokes and retain the yellow dot.
 
@@ -75,7 +80,7 @@ Dark-background use is secondary. If required, use warm off-white for the main s
 
 Until a vector master is approved, use these working rules:
 
-- clear space around the mark: at least the diameter of the yellow dot
+- clear space around the mark: at least the stroke width of the G
 - minimum compact digital size: 24 px high
 - preferred video corner size: 32–64 px high depending on frame size
 - do not use the full `G_QMark` wordmark when it becomes visually cramped
