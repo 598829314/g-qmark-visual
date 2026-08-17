@@ -1,4 +1,4 @@
 interface:
-  display_name: "Oil Visual"
-  short_description: "Create labeled explainers and transparent illustrations"
-  default_prompt: "Use $oil-visual to create either a finished explanatory image or a transparent character illustration in the oil manga-ink style."
+  display_name: "G_QMark Visual"
+  short_description: "Create bright explainers and reusable personal video assets"
+  default_prompt: "Use $g-qmark-visual to create either a finished explanatory image or a reusable transparent visual asset in the bright, calm, rounded G_QMark visual system."
