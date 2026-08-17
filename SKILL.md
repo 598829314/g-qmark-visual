@@ -1,6 +1,6 @@
 ---
 name: g-qmark-visual
-description: "Create consistent G_QMark visuals in a bright, calm, rounded editorial style. Use for explanatory images, workflows, comparisons, technical concepts, personal video overlays, transparent character assets, Wenhao scenes, Q Cat scenes, device illustrations, and reusable visual components."
+description: "Create consistent G_QMark visuals in a bright, calm, rounded editorial style. Use for explanatory images, workflows, comparisons, technical concepts, personal video overlays, transparent character assets, Wenhao scenes, Golden Pup scenes, device illustrations, and reusable visual components."
 ---
 
 # G_QMark Visual
@@ -51,48 +51,41 @@ Treat `G_Q` as a tiny emoticon-like face gently rubbing sleepy eyes: the rounded
 - Derived states such as `G_?`, `G_!` and `G_O` may express status, but never replace the formal identity.
 - Do not invent extra slogans or brand text.
 
-### Wenhao character
+### Wenhao small stick figure
 
-Wenhao is the recurring simplified human character representing the author or narrator.
-
-Fixed traits:
-
-- short black hair
-- simple glasses
-- dark gray or black top
-- small warm-yellow pendant
-- lightly stylized editorial proportion around 1:3.5 to 1:4 head-to-body
-- minimal facial features and controlled expressions
-- a calm, slightly sleepy default state, as if just starting work
-- approachable but not childish
-
-Behavior rules:
-
-- Use Wenhao when a scene benefits from a human actor: thinking, testing, comparing, presenting, shooting, reading, assembling, coding, or inspecting.
-- Keep the expression readable but restrained. Prefer calm, slightly sleepy, newly focused or quietly attentive states. Avoid exaggerated meme faces, anime reactions, heroic poses, or chibi styling.
-- Do not add random clothing patterns, hats, cybernetic accessories, or other identity-changing details.
-- When the user provides a reference image, preserve the reference over these abstract rules.
-
-### Q Cat mascot
-
-Q Cat is a small cream-gray cat representing questions, AI, Agents, curiosity, and processing state.
+Wenhao is the tiny line-drawn human narrator.
 
 Fixed traits:
 
-- cream-gray body
-- warm-white belly or muzzle area
-- dark gray line work
-- tail naturally curls into a recognizable question-mark shape
-- one small warm-yellow tag, collar detail, ear patch, or other fixed yellow identity point
-- simple proportions, half-open eyes and a quiet, slightly lazy default expression
+- slightly oversized simple round head
+- short black hair drawn with only a few strokes
+- tiny simple glasses
+- sleepy dot or short-line eyes and restrained mouth
+- very short line body, arms and legs; total height around 2.5–3 head diameters
+- small dark torso shape suggesting a black T-shirt
+- one tiny warm-yellow pendant dot
+- rounded, slightly imperfect graphite doodle lines
 
-Behavior rules:
+Use Wenhao when a scene benefits from a human decision, test, presentation, camera action, reading, making or device interaction. Never stretch the figure into a tall or anatomically realistic stick figure. Avoid detailed faces, fingers, clothing folds, shoes, anime rendering and painted chibi styling.
 
-- Q Cat can sit on a laptop, NAS, model block, folder, window, progress bar, camera case, or 3D printer, or peek from behind an interface.
-- Use Q Cat to add state information: waiting, thinking, processing, confused, completed, observing, or handing off work.
-- The tail may visually suggest `?`, `!`, or a simple completion gesture when the scene explicitly needs a state transition, but the normal form is `?`.
-- Keep Q Cat secondary to the main subject. It should add recognition and warmth without becoming decorative clutter.
-- Do not turn Q Cat into a robot, armored pet, fantasy creature, or highly detailed realistic cat.
+### Golden Pup mascot
+
+Golden Pup is a small golden retriever puppy companion representing companionship, curiosity, waiting, observation and lightweight process state.
+
+Fixed traits:
+
+- unmistakably a young golden retriever puppy
+- compact round body, slightly oversized head and short legs
+- floppy rounded ears
+- broad cream muzzle and chest
+- warm golden-ochre flat coat
+- small sleepy-friendly eyes and tiny dark nose
+- simplified softly curved tail
+- the same rounded graphite doodle line language as Wenhao
+
+Golden Pup may sit beside a laptop, NAS, camera, model block or progress bar; lie with its chin on its paws; carry a soft ball; peek from a folder; or accompany Wenhao. Keep it secondary to the information.
+
+Do not turn it into a cat, border collie, adult tall dog, robot, armored animal or realistically rendered pet. Avoid pointy ears, detailed fur, anime eyes and complex clothing.
 
 ## Shared visual language
 
@@ -183,7 +176,7 @@ real_objects: visible devices, files, windows, documents, tools, models, or stat
 relation: comparison, transformation, causality, sequence, hierarchy, feedback, tradeoff, pipeline, or handoff
 visual_evidence: what remains understandable when labels are ignored?
 human_role: whether Wenhao is needed and what he is doing
-qcat_role: whether Q Cat adds useful state or personality
+golden-pup_role: whether Golden Pup adds useful state or personality
 scene: believable setting and 2–4 useful environmental cues
 semantic_colors: what each accent color means
 labels: exact short strings plus the evidence surface for each label
@@ -191,7 +184,7 @@ labels: exact short strings plus the evidence surface for each label
 
 Show the input, action or relation, and result. Keep one dominant focal action and no more than three major visual regions.
 
-### 2. Decide whether Wenhao and Q Cat are needed
+### 2. Decide whether Wenhao and Golden Pup are needed
 
 Do not force both characters into every image.
 
@@ -201,7 +194,7 @@ Use Wenhao when:
 - the content is personal or first-person
 - a human scale helps make a technical object understandable
 
-Use Q Cat when:
+Use Golden Pup when:
 
 - the scene benefits from showing AI, Agent, curiosity, waiting, processing, error, or completion
 - a small recurring mascot can add identity without obscuring the explanation
@@ -233,7 +226,7 @@ Use this order:
 
 1. State the concrete claim and shared task.
 2. Describe the real setting and important objects.
-3. Describe Wenhao and/or Q Cat only if they are needed.
+3. Describe Wenhao and/or Golden Pup only if they are needed.
 4. Describe the evidence geometry: aligned, split, nested, connected, transformed, repeated, moving, converging, or handed off.
 5. Assign semantic colors.
 6. Quote exact labels and placements when text is required.
@@ -250,10 +243,10 @@ Technical information is shown through real devices, files, windows, model
 blocks, arrows, states, and spatial relationships rather than futuristic HUD
 decoration. Use the G_QMark palette: charcoal and off-white base, identity yellow
 for tiny focus points, plus at most two soft semantic colors such as sky blue,
-sage green, soft orange, or soft purple. If Wenhao appears, keep short black
-hair, simple glasses, dark top, small yellow pendant, and restrained editorial
-proportions. If Q Cat appears, keep a cream-gray body, question-mark tail, and
-one small yellow identity detail. No cyberpunk, no neon glow, no glassmorphism,
+sage green, soft orange, or soft purple. If Wenhao appears, keep a round head, tiny glasses, sparse black hair, very short
+line limbs, dark torso and tiny yellow pendant. If Golden Pup appears, keep a
+round golden-retriever puppy body, short legs, floppy ears, cream muzzle and
+warm golden-ochre flat coat. No cyberpunk, no neon glow, no glassmorphism,
 no glossy gradients, no photorealism, no complex 3D, no chibi, no corporate
 card grid, no decorative clutter, no watermark.
 ```
@@ -263,7 +256,7 @@ card grid, no decorative clutter, no watermark.
 1. Inspect the output at original resolution.
 2. Confirm the intended claim and relation are visible without relying only on text.
 3. Compare every required label character by character.
-4. Confirm Wenhao and Q Cat retain their fixed traits when used.
+4. Confirm Wenhao and Golden Pup retain their fixed traits when used.
 5. Confirm identity yellow remains a small accent instead of flooding the scene.
 6. Reject outputs that drift into dark neon tech styling, generic cartoon style, or corporate infographic grids.
 
@@ -284,10 +277,10 @@ Prefer a single action or compact scene:
 - Wenhao thinking at a laptop
 - Wenhao holding a camera or document
 - Wenhao presenting a model comparison
-- Q Cat resting on a progress bar
-- Q Cat peeking from a folder
-- Q Cat sitting on a NAS or model block
-- Wenhao and Q Cat observing one device together
+- Golden Pup resting on a progress bar
+- Golden Pup peeking from a folder
+- Golden Pup sitting on a NAS or model block
+- Wenhao and Golden Pup observing one device together
 - one device, icon, or prop designed for later composition
 
 Leave generous padding around the subject.
@@ -301,10 +294,9 @@ Style: bright calm editorial illustration in the G_QMark visual system. Clean
 rounded dark-charcoal outlines, soft flat fills, restrained cute proportions,
 and no glossy or photorealistic rendering. Use the G_QMark palette with a
 charcoal/off-white base and small identity-yellow accents. If Wenhao appears,
-keep short black hair, simple glasses, dark top, small yellow pendant, and
-restrained 1:3.5–1:4 editorial proportions. If Q Cat appears, keep a cream-gray
-body, warm-white belly or muzzle, question-mark tail, and one small yellow
-identity detail. The background must be a perfectly uniform flat <KEY_COLOR>
+keep a round head, tiny glasses, sparse black hair, very short line limbs, dark
+torso and tiny yellow pendant. If Golden Pup appears, keep a compact golden
+retriever puppy body, short legs, floppy ears, cream muzzle and warm golden coat. The background must be a perfectly uniform flat <KEY_COLOR>
 rectangle with zero gradient, texture, noise, speckles, shadows, floor plane,
 or lighting variation. Do not let artwork touch the image border. Keep generous
 padding. No text unless explicitly requested. No watermark. PNG format.
@@ -336,7 +328,7 @@ python3 scripts/cutout.py source.png transparent.png \
 ### 5. Validate the transparent result
 
 - Confirm RGBA output and transparent corners.
-- Confirm glasses, hair, pendant, Q Cat ears, question-mark tail, and small yellow details remain complete.
+- Confirm glasses, hair, pendant, Golden Pup floppy ears, muzzle and tail, and small yellow details remain complete.
 - Check for key-color fringe at 100% zoom.
 - Confirm internal light areas were not erased.
 - Regenerate the source instead of forcing background removal when the source background is uneven.
@@ -360,7 +352,7 @@ Approved reusable assets should follow this structure when the project supports 
 assets/
   identity/
   characters/wenhao/
-  mascot/q-cat/
+  mascot/golden-pup/
   icons/
   backgrounds/
 prompts/
@@ -374,8 +366,8 @@ Suggested naming:
 ```text
 wenhao-thinking-v01.png
 wenhao-presenting-v01.png
-qcat-processing-v01.png
-qcat-complete-v01.png
+golden-pup-waiting-v01.png
+golden-pup-complete-v01.png
 gqmark-logo-mark-v01.svg
 icon-local-model-v01.svg
 ```
@@ -389,7 +381,7 @@ For every output:
 - The image feels bright, calm, rounded, orderly, and restrainedly cute.
 - The technical content is represented by meaningful objects and relationships rather than generic AI decoration.
 - Identity yellow is used sparingly and consistently.
-- Wenhao and Q Cat retain their fixed traits when present.
+- Wenhao and Golden Pup retain their fixed traits when present.
 - The composition contains enough negative space and does not become a card grid or decoration wall.
 
 For Mode A:
