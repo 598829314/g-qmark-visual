@@ -1,15 +1,16 @@
-# Prompt — G_Q Identity Exploration
+# Prompt — G_Q Selected Direction Refinement
 
-Use this prompt only for exploration before a canonical vector logo is approved. Do not promote any generated result into `assets/identity/` without review.
+Use this prompt only to refine the selected compact G_Q direction before a canonical vector logo is drawn. Do not reopen unrelated visual directions.
 
 ## Goal
 
-Explore a compact personal identity system for `G_QMark`, centered on the readable, emoticon-like short mark `G_Q`.
+Refine the selected low, compact, heavy `G_Q` skeleton into a deterministic vector-ready master.
 
 ## Fixed identity rules
 
 - The core short mark must read clearly as `G_Q`.
-- `G_Q` should suggest a tiny face gently rubbing sleepy eyes without becoming a literal cartoon face.
+- Follow the selected lower-left concept: heavy rounded letters, low visual center, tight spacing and a low underscore that almost bridges G and Q.
+- `G_Q` should suggest a tiny sleepy face through proportion and spacing without becoming a literal cartoon face.
 - Main strokes use dark graphite near `#30343B`.
 - The visual character is sleepy, calm, quiet, rounded and restrained.
 - Preserve the underscore as part of the face-like reading.
@@ -24,14 +25,16 @@ Design a compact flat vector-style identity system for the personal visual syste
 Center the exploration on the exact short mark "G_Q".
 Treat G_Q as a tiny emoticon-like face that looks as if it is gently rubbing sleepy eyes: the rounded G and Q suggest two sleepy eyes or hands at the eyes, and the underscore suggests a calm mouth line or resting facial centerline.
 Keep the letters immediately readable. Do not draw literal hands, eyelashes or a cartoon face.
-Use simple rounded geometric construction, clean sans-serif stroke logic and balanced spacing.
+Use a heavy rounded geometric construction with a low visual center and compact spacing.
+Keep G and Q close to the underscore; let the underscore almost bridge them without touching.
+Keep a clear G opening and a short low Q tail.
 Use dark graphite (#30343B) as the main color, with warm yellow (#F2C94C) only as a small optional identity accent.
 The result should feel sleepy, calm, quiet, slightly dazed, restrained and already starting work—cute but not childish.
 Use a warm off-white background (#FFFDF7) for presentation only.
 Keep the mark flat, minimal and easy to recreate as SVG paths and animate with a subtle rubbing-eyes motion that settles into stillness.
 Optionally include one clearly labeled secondary G? reduction for favicon or micro-icon use, but do not make it the only primary direction.
 No 3D, no gradients, no glow, no cyberpunk, no shield, no hexagon badge, no AI chip, no robot icon, no lightning bolt, no gaming aesthetic, no decorative circuitry, no mockup scene.
-Present several clearly separated geometric directions while preserving the exact G_Q identity.
+Present only optical refinements of this selected skeleton: spacing, counter size, stroke weight and Q-tail length. Do not introduce a new skeleton.
 ```
 
 ## Review checklist
@@ -45,4 +48,4 @@ Reject a direction if:
 - the geometry cannot be simplified into clean SVG
 - it looks like a gaming, crypto, cybersecurity or generic AI logo
 
-Prefer the direction that remains recognizable at very small size and can animate with one subtle sleepy motion before settling.
+Prefer the refinement that preserves the compact sleepy posture at 24 px while keeping G, underscore and Q unambiguous.
