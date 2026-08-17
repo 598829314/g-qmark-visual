@@ -1,54 +1,111 @@
-<p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="oil-visual：漫画墨线、半调网点、小人和黄色边牧组成的配图风格">
-</p>
+# G_QMark Visual
 
-`oil-visual` 是一套给 Codex 使用的配图规范。它把角色、线条、网点、颜色、场景和图片文字统一在一套规则里，让不同主题的图保持同一种视觉语言。
+`g-qmark-visual` 是一套面向个人视频、技术解释和数字内容制作的视觉规范。它从 [`oil-oil/oil-visual`](https://github.com/oil-oil/oil-visual) Fork 而来，保留原项目把角色、构图、颜色和生成流程固化为 Agent Skill 的方法，并改造成属于 G_QMark 的视觉资产系统。
 
-适合用来画概念解释、机制流程、对比关系和角色场景。
+它不是单独的一种“画风”，而是一套可以持续扩展的个人视觉语言：固定标识、人物、吉祥物、色彩、图形规则，以及适合解释图和透明视频素材的生产方式。
 
-## 配图风格
+## 视觉方向
 
-- 用粗细分明的黑色墨线画轮廓和细节。
-- 用圆形半调网点表现灰面和阴影，不使用柔和渐变。
-- 主角是戴圆框眼镜的极简小人，旁边保留一只胖胖的暖黄色边牧。
-- 场景使用米白色纸张质感，只保留少量真正帮助理解的环境物件。
-- 暖黄色是固定颜色；每张图最多再使用两种语义色。
-- 图片需要文字时，使用短而准确的无衬线标签，并直接放在对应物体上。
+整体风格：**明亮、平稳、圆润、克制地可爱、带一点技术内容。**
 
-## 示例
+- 使用暖米白背景和大面积留白，不依赖深色科技背景。
+- 以深灰线稿和柔和扁平色块构成画面，避免强渐变、霓虹和复杂 3D。
+- 信息结构保持规整，允许箭头、标签、窗口和设备带轻微手绘感。
+- 可爱来自人物比例、Q Cat 的动作和小细节，不使用夸张萌化或表情包式表演。
+- 技术感通过真实设备、Agent 节点、文件、模型、流程关系和数据表达，而不是依赖赛博朋克装饰。
 
-<p align="center">
-  <img src="./examples/agent-workflow-square.png" width="32%" alt="主 Agent 分配任务并统一验收">
-  <img src="./examples/explainer-cost-comparison.png" width="32%" alt="分工清楚与重复处理的成本对比">
-  <img src="./examples/feedback-loop.png" width="32%" alt="输入、处理、结果与反馈组成的循环">
-</p>
+## 固定身份资产
 
-<p align="center">
-  <img src="./examples/pipeline-bottleneck.png" width="32%" alt="并行处理疏通任务瓶颈">
-  <img src="./examples/from-complex-to-clear.png" width="32%" alt="把复杂输入整理成清楚结果">
-</p>
+### `G?`
 
-同一套小人、边牧、墨线、网点和语义色，可以表现机制、对比、循环、瓶颈和信息整理。
+`G?` 是主标识。问号的圆点使用固定黄色，并作为整套视觉系统的重复记号，可用于章节编号、流程节点、光标、状态提示和小型强调元素。
+
+### Wenhao
+
+简化人物角色，用于代表“我”或内容讲述者。固定识别特征：
+
+- 黑色短发
+- 简洁眼镜
+- 深灰或黑色上衣
+- 小型金黄色吊坠
+- 约 1:3.5–1:4 的轻度卡通比例
+- 表情克制，保持编辑插画感
+
+### Q Cat
+
+Q Cat 是奶灰色小猫，用于表示问题、AI、Agent、好奇心和处理状态。
+
+- 奶灰身体、暖白肚皮
+- 极简深灰线稿
+- 尾巴自然卷成 `?`
+- 黄色小圆牌或小色块作为固定识别点
+- 可以趴在设备、窗口、进度条和文件夹上，但不抢占主体信息
+
+## 基础配色
+
+| 用途 | 色值 |
+| --- | --- |
+| 暖米白背景 | `#FFFDF7` |
+| 卡片白 | `#FFFFFF` |
+| 主文字 / 线稿 | `#30343B` |
+| 次级线稿 | `#60656F` |
+| 标识黄 | `#F2C94C` |
+| 天空蓝 | `#8EC5E8` |
+| 鼠尾草绿 | `#A9C8A5` |
+| 淡橙 | `#F2A66F` |
+| 淡紫 | `#B9A7D8` |
+
+详细规则见 [`DESIGN.md`](./DESIGN.md)。
+
+## 输出模式
+
+### Mode A：完整解释图
+
+用于概念、机制、流程、对比和数据关系。图片本身应能在约 10 秒内表达主要关系，可以包含少量准确标签。
+
+### Mode B：透明视频素材
+
+用于人物、Q Cat、设备和小场景。先在纯色键控背景生成，再使用原项目保留的 `scripts/cutout.py` 输出透明 PNG，方便放进视频、网页、卡片或其他版式。
 
 ## 安装
 
 ```bash
-git clone https://github.com/oil-oil/oil-visual.git ~/.codex/skills/oil-visual
+git clone https://github.com/598829314/g-qmark-visual.git ~/.codex/skills/g-qmark-visual
 ```
 
-重启 Codex，然后在对话里点名使用：
+重启 Codex 后可以直接点名使用：
 
 ```text
-Use $oil-visual to explain how the main Agent assigns work to subagents.
-Use short, exact Chinese labels inside the image.
+Use $g-qmark-visual to explain why a sparse local model can generate faster than a dense model.
+Use short, exact Chinese labels and the bright G_QMark visual language.
 ```
 
 ```text
-Use $oil-visual to draw the glasses stick figure reviewing a blueprint,
-with the warm-yellow Border Collie sitting beside the desk.
+Use $g-qmark-visual to create a transparent Q Cat illustration for a video overlay.
+The cat is resting on a progress bar while an Agent is working.
 ```
 
-完整规则、提示词结构和交付检查都写在 [`SKILL.md`](./SKILL.md) 里。
+完整生成规则、提示词结构和交付检查见 [`SKILL.md`](./SKILL.md)。
+
+## 仓库结构
+
+```text
+assets/
+  identity/            G? 标识和品牌小元素
+  characters/wenhao/  Wenhao 人物资产
+  mascot/q-cat/        Q Cat 资产
+  icons/               设备、Agent、模型和工作流图标
+  readme/              README 相关素材
+examples/              示例；当前仍保留部分上游示例作为参考
+prompts/               可复用生成提示词和场景模板
+scripts/               通用处理脚本
+```
+
+当前第一版先固定规则，不生成新的角色和 Logo 图片。旧 `oil-visual` 示例素材暂时保留作为上游参考，后续再逐步替换。
+
+## Upstream
+
+本项目 Fork 自 [`oil-oil/oil-visual`](https://github.com/oil-oil/oil-visual)。原项目由 Zhihuang Lin 创建，并以 MIT License 发布。
 
 ## License
 
