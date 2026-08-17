@@ -35,14 +35,20 @@ If the destination is unclear, choose Mode A when the image itself must communic
 
 ## Identity system
 
-### G? mark
+### Identity marks
 
-`G?` is the primary identity mark.
+- `G_QMark` is the formal project and visual-system name.
+- `G_Q` is the core personality-bearing short mark.
+- `G?` is an optional secondary abstract symbol for favicons, micro-icons and derived motion.
 
+Treat `G_Q` as a tiny emoticon-like face gently rubbing sleepy eyes: the rounded G and Q suggest sleepy eyes or hands at the eyes, while the underscore acts as a calm mouth line or resting facial centerline.
+
+- Keep `G_Q` immediately readable; preserve the underscore.
 - Use dark charcoal for the main mark.
-- The dot of the question mark is warm yellow `#F2C94C`.
-- The yellow dot is a recurring visual motif and may also appear as a chapter marker, status point, cursor, process node, pendant, or small accent.
+- Allow only a subtle sleepy-eye association—do not add literal hands, eyelashes or a cartoon face.
+- Warm yellow `#F2C94C` remains the recurring color motif and may appear as a chapter marker, status point, cursor, process node, pendant, or small accent.
 - Do not place the logo in every image. Use it when the asset is explicitly branded, used as an intro/outro, watermark, title card, profile asset, or reusable identity component.
+- Derived states such as `G_?`, `G_!` and `G_O` may express status, but never replace the formal identity.
 - Do not invent extra slogans or brand text.
 
 ### Wenhao character
@@ -57,12 +63,13 @@ Fixed traits:
 - small warm-yellow pendant
 - lightly stylized editorial proportion around 1:3.5 to 1:4 head-to-body
 - minimal facial features and controlled expressions
+- a calm, slightly sleepy default state, as if just starting work
 - approachable but not childish
 
 Behavior rules:
 
 - Use Wenhao when a scene benefits from a human actor: thinking, testing, comparing, presenting, shooting, reading, assembling, coding, or inspecting.
-- Keep the expression readable but restrained. Avoid exaggerated meme faces, anime reactions, heroic poses, or chibi styling.
+- Keep the expression readable but restrained. Prefer calm, slightly sleepy, newly focused or quietly attentive states. Avoid exaggerated meme faces, anime reactions, heroic poses, or chibi styling.
 - Do not add random clothing patterns, hats, cybernetic accessories, or other identity-changing details.
 - When the user provides a reference image, preserve the reference over these abstract rules.
 
@@ -77,7 +84,7 @@ Fixed traits:
 - dark gray line work
 - tail naturally curls into a recognizable question-mark shape
 - one small warm-yellow tag, collar detail, ear patch, or other fixed yellow identity point
-- simple proportions and quiet expressions
+- simple proportions, half-open eyes and a quiet, slightly lazy default expression
 
 Behavior rules:
 
@@ -95,6 +102,8 @@ Aim for:
 
 - bright
 - calm
+- slightly sleepy
+- relaxed
 - rounded
 - orderly
 - restrainedly cute
