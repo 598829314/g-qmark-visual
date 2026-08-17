@@ -13,7 +13,6 @@ Wenhao is the small line-drawn human narrator in G_QMark Visual.
 - calm, slightly sleepy eyes and restrained mouth
 - very short line body, arms and legs
 - small dark torso shape suggesting a black T-shirt
-- one tiny warm-yellow pendant dot
 - total height around 2.5–3 head diameters
 
 The figure must feel small, compact and friendly. Never stretch it into a tall or anatomically realistic stick figure.
@@ -52,7 +51,7 @@ Wenhao is the narrator and decision-maker. Golden Pup adds companionship, curios
 
 ## Production
 
-Generate isolated poses with generous padding, preserve the glasses and pendant, then export approved assets with alpha transparency.
+Generate isolated poses with generous padding, preserve the glasses, then export approved assets with alpha transparency.
 
 Recommended files:
 
@@ -62,4 +61,4 @@ Recommended files:
 - `wenhao-stick-camera-v01.png`
 - `wenhao-stick-presenting-v01.png`
 
-Do not silently change the short proportions, round head, glasses, sparse hair, dark torso or yellow pendant.
+Do not silently change the short proportions, round head, glasses, sparse hair or dark torso.
